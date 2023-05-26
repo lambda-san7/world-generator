@@ -94,6 +94,9 @@ while running:
                 map1.gen()
                 print(map1.seedText)
             if pygame.mouse.get_pressed()[2]:
+
+                ##### FOR SEED LOADING PASTE SEED HERE #####
+
                 map1.load("000000000000011100000112200000111100000010100")
     pygame.display.set_caption(f"{searchCount}")
     #if "0" in map1.seedText:
